@@ -1,0 +1,136 @@
+*{
+  font-family: sans-serif;
+  
+}
+.sidebar{
+    background-image: linear-gradient(rgb(9, 9, 51), rgb(46, 46, 133));
+
+    
+}
+.page{
+    
+    text-align: center;
+    position: absolute;
+        top: 25px;
+        left: 267px;
+        font-size: 18px;
+
+}
+.search-bar input {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 36px;
+    margin-right: 500px;
+  }
+
+  .filters {
+    width: 30%;
+    padding: 10px;
+    border-radius: 36px;
+    margin-left: 500px;
+  }
+  
+  .filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+
+.margin{
+    text-align: center;
+}
+
+.fontt{
+  font-style: bold;
+  font-size:medium;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+
+
+
+.filter-dropdown {
+  height: 36px; /* Match the height of the search bar */
+  border-radius: 12px;
+  margin-left: 10px; /* Space between filter dropdowns */
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically center items if needed */
+  margin-top: 27px; /* Margin top for the entire container */
+}
+
+.search-bar {
+  width: 270px;
+  height: 36px;
+  border-radius: 12px;
+  margin-right: 456px; 
+  border-color: #f4f4f4;
+  border-width: none;
+  
+}
+
+
+
+
+
+
+  /* Ensure this is in your CSS file, e.g., SideBar.css */
+
+.table-container {
+    overflow-x: auto; /* Adds horizontal scrolling if the table is too wide */
+    margin-top: 20px; /* Adds space above the table */
+    border-radius: 27px;
+  }
+  
+  .transactions-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures that borders between cells are merged */
+  
+    
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+     /* Adds a light gray border around table cells */
+  
+    padding: 8px; /* Adds padding inside cells */
+    text-align: left; /* Aligns text to the left */
+  }
+  
+  .transactions-table th {
+    background-color: #f4f4f4; /* Adds a light gray background to table headers */
+    color: #333; /* Sets text color for table headers */
+  }
+  
+  .transactions-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Adds a light gray background to even rows */
+  }
+  
+  .transactions-table tr:hover {
+    background-color: #f1f1f1; /* Highlights rows on hover */
+  }
+  
+
+
+
+
+  .font{
+    font-style: small;
+  font-size:small;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .transactions-font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: bold;
+    
+    
+  }
